@@ -1,13 +1,12 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <carousel Items="itemList"/>
+    <Home></Home>
   </div>
 </template>
 
 <script>
-import Carousel from './components/Carousel.vue'
-
+import Home from './components/Home.vue'
 export default {
   name: 'App',
   itemList:[{
@@ -15,7 +14,7 @@ export default {
     Title:'amir'
   }],
   components: {
-   Carousel
+   Home
   }
 }
 </script>
