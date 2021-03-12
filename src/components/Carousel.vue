@@ -1,4 +1,17 @@
 <template>
+    <div >
+        <div v-for="item in items" :key="item.id">
 
-    <b-button  >Button</b-button>
+        </div>
+    </div>
 </template>
+
+<script>
+export default {
+    items:[{
+        Id:Number,
+        Title:String,
+        ImageName:String
+    }]
+}
+</script>

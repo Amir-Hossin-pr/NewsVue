@@ -1,7 +1,6 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <Home></Home>
+  <div id="app" class="container">
+    <home></home>
   </div>
 </template>
 
@@ -9,11 +8,7 @@
 import Home from './components/Home.vue'
 export default {
   name: 'App',
-  itemList:[{
-    id:1,
-    Title:'amir'
-  }],
-  components: {
+   components: {
    Home
   }
 }
